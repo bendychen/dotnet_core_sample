@@ -18,7 +18,7 @@ pipeline {
                     CI_ERROR = "Failed while building application"
                 }                
                 
-                sh 'dotnet build'
+                sh 'dotnet --info'
             }
         }
         stage('Test') {
