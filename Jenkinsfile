@@ -9,7 +9,7 @@ pipeline {
         }
     }
     tools { 
-        maven 'Maven 3.8.6' 
+        dotnet 'dotnet core 2.2' 
     }    
     stages {
         stage('Build') {
