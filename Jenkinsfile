@@ -20,6 +20,7 @@ pipeline {
                 
                 sh 'ls'
                 sh '/var/lib/jenkins/tools/io.jenkins.plugins.dotnet.DotNetSDK/dotnet_core_2.2/dotnet --info'
+                sh 'dotnet build'
             }
         }
         stage('Test') {
