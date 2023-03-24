@@ -9,7 +9,7 @@ pipeline {
         }
     }
     tools { 
-        dotnet 'dotnet core 2.2' 
+        dotnetsdk 'dotnet core 2.2' 
     }    
     stages {
         stage('Build') {
